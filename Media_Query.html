@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+</head>
+<style>
+    .box{
+        background-color: red;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        display: none;
+    }
+    @media(max-width: 450px){
+        #box1{
+         display:block;
+     }
+    }
+    @media(max-width: 500px) and (min-width: 250px){
+        #box2{
+            display: block;
+            background-color: turquoise;
+        }
+    }
+    @media(max-width: 800px) and (min-width: 400px){
+        #box2{
+            display: block;
+            background-color: rgb(39, 104, 223);
+        }
+    }
+
+    
+</style>
+<body>
+    <div class="box" id="box1">This is gaurav kumar singh</div>
+    <div class="box" id="box2">this is golu singh</div>
+    <div class="box" id="box3">THis is singh sahab</div>
+    <div class="box" id="box4">i am from upes</div>
+</body>
+</html>
