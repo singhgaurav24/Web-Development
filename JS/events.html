@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS event</title>
+</head>
+<style>
+    #btn{
+        padding: 8px;
+        border: 2px solid green;
+        background: hotpink;
+        border-radius: 6px;
+        cursor: pointer;
+        /* font-style: italic; */
+        
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>this is gaurav singh</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, quia ullam repudiandae praesentium eveniet
+            laborum! Deserunt nisi consequatur natus cupiditate iusto rerum expedita? Dolorum, autem aliquid! Non
+            dolores deserunt deleniti aliquam, illo placeat asperiores consectetur at ducimus reiciendis impedit
+            officiis alias quasi facere ipsum excepturi. Quaerat neque fugiat ut rem, ratione corporis illo assumenda
+            nulla iusto. Blanditiis tempora odit expedita quaerat tenetur repudiandae corrupti, accusamus reprehenderit!
+            Dolorum, numquam nulla. Accusamus earum et nobis aut exercitationem harum consequuntur, ipsam facilis libero
+            eaque consequatur ad fugit? Illo, suscipit officiis odit animi consequatur excepturi! Quod vel temporibus,
+            laborum obcaecati ut quos odit quisquam sunt. Quos inventore id voluptatum dolore, iusto reiciendis nulla
+            animi? Impedit molestiae obcaecati vitae mollitia in adipisci quas fugit delectus voluptatum porro
+            perferendis maiores vel ipsum, rerum, perspiciatis beatae, architecto harum sunt voluptas repellat! Vero
+            magni doloribus odio expedita, illum commodi voluptatibus ipsum mollitia sint autem assumenda. Illo beatae
+            est fuga quia eos voluptate expedita suscipit, dolorum odit quo, eum consectetur in dignissimos repellendus
+            rem tempora quaerat sed, possimus ut excepturi! Harum quidem, exercitationem velit ipsam odit temporibus a
+            alias consequatur atque expedita asperiores accusamus aliquam ut nisi aperiam qui. Doloribus minus molestiae
+            aspernatur et vero ad distinctio dolorum nesciunt quis voluptatum. Aspernatur ipsa nam unde! Dolore dicta
+            ipsa distinctio animi minus soluta iste quis aut, consequuntur rem ad sint eius doloribus autem, neque
+            temporibus porro quam quae placeat culpa. Aut possimus sint esse doloribus modi quam provident a earum! Non
+            unde laboriosam voluptatibus consequuntur pariatur et. Itaque, quae! Quidem.</p>
+    </div>
+
+     <button id="btn" onclick="show()">Show/Hide</button>
+    <script>
+      function show(){
+          let btn = document.getElementById('btn');          
+          let para = document.getElementById('para');          
+
+          if(para.style.display != 'none'){
+              para.style.display = 'none';
+          }
+          else{
+              para.style.display = 'block';
+          }
+      }
+
+    </script>
+</body>
+
+</html>
